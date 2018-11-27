@@ -149,7 +149,8 @@ a {
   padding: 50px 0; }
   .composition img, .decision img, .harvest img, .more img {
     margin: 20px auto 0;
-    display: block; }
+    display: block;
+      display-width: 100%; }
 
 .sell {
   padding: 50px 0;
@@ -493,6 +494,10 @@ a {
     margin: 0 auto; }
 
 @media (max-width: 991px) {
+  .composition img, .decision img, .harvest img, .more img {
+    width: 100%; }
+  .header__logo {
+    text-align: center; }
   .header__phone {
     font-size: 22px;
     margin-bottom: 0; }

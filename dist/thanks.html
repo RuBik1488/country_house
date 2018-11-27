@@ -11,7 +11,7 @@
 		<div class="container">
 			<div class="row no-gutters">
 				<div class="col-12 col-md-2">
-					<img src="img/logo.png" alt="">
+					<a href="/"><img src="img/logo.png" alt=""></a>
 				</div>
 				<div class="col-12 col-md-5">
 					<div class="d-flex align-items-center justify-content-center">
@@ -84,6 +84,19 @@
 			<img src="img/address.png" alt="">
 		</div>
 	</footer>
+
+	<!-- Modal -->
+	<div class="bg-modal"></div>
+	<div class="modal modal-q">
+		<div class="modal__close">x</div>
+		<div class="modal__title mb-5">Заявка на обратный звонок</div>
+		<form>
+			<input type="text" name="name" placeholder="Имя">
+			<input type="text" name="phone" placeholder="Телефон" required >
+			<input type="hidden" name="name_prod" class="name_prod2" value="Заказать звонок">
+			<button type="submit" class="btn-green">Заказать звонок</button>
+		</form>
+	</div>
 
 	<script src="js/libs.min.js"></script>
 	<script src="js/common.js"></script> 

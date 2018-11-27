@@ -120,6 +120,7 @@ a
 	img
 		margin: 20px auto 0
 		display: block
+        width: 100%
 
 .sell
 	padding: 50px 0	
@@ -446,7 +447,13 @@ a
 
 
 @media(max-width:991px)
+	.composition, .decision, .harvest, .more
+		img
+			width: 100%
+
 	.header
+		&__logo
+			text-align: center
 		&__phone
 			font-size: 22px
 			margin-bottom: 0
@@ -469,7 +476,8 @@ a
 				img
 					width: 100%
 			&-desc
-				font-size: 14px					
+				font-size: 14px
+
 
 @media(max-width:767px)
 	.header
